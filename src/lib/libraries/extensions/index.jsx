@@ -46,6 +46,9 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import dinnyeImage from './dinnye.jpg';
+import dinnyeButtonImage from './dinnye-icon.png';
+
 export default [
     {
         name: (
@@ -322,6 +325,8 @@ export default [
         name: 'DINNYE',
         extensionId: 'dinnye',
         collaborator: 'völgyváros',
+		iconURL: dinnyeImage,
+        insetIconURL: dinnyeButtonImage,
         description: "DINNYE robotok irányítása",
         featured: true,
         disabled: false,
