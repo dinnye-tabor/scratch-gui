@@ -82,24 +82,6 @@ To run linter, unit tests, build, and integration tests, all at once:
 npm test
 ```
 
-#### Running unit tests
-
-To run unit tests in isolation:
-```bash
-npm run test:unit
-```
-
-To run unit tests in watch mode (watches for code changes and continuously runs tests):
-```bash
-npm run test:unit -- --watch
-```
-
-You can run a single file of integration tests (in this example, the `button` tests):
-
-```bash
-$(npm bin)/jest --runInBand test/unit/components/button.test.jsx
-```
-
 #### Running integration tests
 
 Integration tests use a headless browser to manipulate the actual HTML and javascript that the repo
