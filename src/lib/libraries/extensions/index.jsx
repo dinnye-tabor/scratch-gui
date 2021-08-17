@@ -327,7 +327,7 @@ export default [
         collaborator: 'völgyváros',
 		iconURL: dinnyeImage,
         insetIconURL: dinnyeButtonImage,
-        description: "DINNYE robotok irányítása",
+        description: "DINNYE robotok irányításához",
         featured: true,
         disabled: false,
         internetConnectionRequired: true,
